@@ -60,6 +60,15 @@ def extract_patch(filename, patch_size, num_class, num_patches=1, augmentation=F
         image_patch = image[:, :, z-1:z+2]
         mask_patch  =  mask[:, :, z]
         
+        # augmentation
+        if randint(0, 1) == 1:
+            image_patch = image_patch[::-1, ...] 
+            mask_patch = mask_patch[::-1, ...] 
+        if randint(0, 1) == 1:
+            shift_pixel = randint(0,10)
+            image_patch = translate(image_patch, shift=shift_pixel)
+            mask_patch = translate(mask_patch, shift=shift_pixel)
+
         image_patches.append(image_patch)
         mask_patches.append(mask_patch)
         num_patches_now += 1
@@ -70,6 +79,32 @@ def extract_patch(filename, patch_size, num_class, num_patches=1, augmentation=F
     #print image_patches.shape
     return image_patches.astype(np.float32), mask_patches.astype(np.float32)
 
+def translate(img, shift=10, roll=True):
+
+    direction = ['right', 'left', 'down', 'up']
+    i = randint(0,3)
+    img = img.copy()
+    if direction[i] == 'right':
+        right_slice = img[:, -shift:].copy()
+        img[:, shift:] = img[:, :-shift]
+        if roll:
+            img[:,:shift] = np.fliplr(right_slice)
+    if direction[i] == 'left':
+        left_slice = img[:, :shift].copy()
+        img[:, :-shift] = img[:, shift:]
+        if roll:
+            img[:, -shift:] = left_slice
+    if direction[i] == 'down':
+        down_slice = img[-shift:, :].copy()
+        img[shift:, :] = img[:-shift,:]
+        if roll:
+            img[:shift, :] = down_slice
+    if direction[i] == 'up':
+        upper_slice = img[:shift, :].copy()
+        img[:-shift, :] = img[shift:, :]
+        if roll:
+            img[-shift:,:] = upper_slice
+    return img
 
 def random_patch_center_z(mask, patch_size):
     # bounded within the brain mask region
