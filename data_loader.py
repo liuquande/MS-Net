@@ -60,7 +60,7 @@ def extract_patch(filename, patch_size, num_class, num_patches=1, augmentation=F
         image_patch = image[:, :, z-1:z+2]
         mask_patch  =  mask[:, :, z]
         
-        # augmentation
+        ## augmentation
         if randint(0, 1) == 1:
             image_patch = image_patch[::-1, ...] 
             mask_patch = mask_patch[::-1, ...] 
