@@ -1,4 +1,4 @@
-** MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data **
+## MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data
 
 ### Introduction
 
