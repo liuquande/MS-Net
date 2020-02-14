@@ -1,4 +1,3 @@
-### MS-Net
 
 <p align="left">
     <img src="assets/overview.png" width="95%" height="95%">
