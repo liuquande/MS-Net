@@ -7,7 +7,7 @@
 
 > We propose a novel multi-site network (MS-Net) for improving prostate segmentation by learning robust representations, leveraging multiple sources of data. To compensate for the inter-site heterogeneity of different MRI datasets, we develop Domain-Specific Batch Normalization layers in the network backbone, enabling the network to estimate statistics and perform feature normalization for each site separately. Considering the difficulty of capturing the shared knowledge from multiple datasets, a novel learning paradigm, i.e., Multi-site-guided Knowledge Transfer, is proposed to enhance the kernels to extract more generic representations from multi-site data. Extensive experiments on three heterogeneous prostate MRI datasets demonstrate that our MS-Net improves the performance across all datasets consistently. 
 
-This is the reference implementation of the unpaired multi-modal segmentation method described in our paper:
+This is the reference implementation of the multi-site learning method described in our paper:
 ```
 @inproceedings{liu2020msnet,
     author = {Quande Liu and Qi Dou and Lequan Yu and Pheng Ann Heng},
