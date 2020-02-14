@@ -1,5 +1,5 @@
 <p align="left">
-    <img src="assets/overview.png" width="85%" height="85%">
+    <img src="assets/overview.png" width="95%" height="95%">
 </p>
 
 [**_MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data_**](https://arxiv.org/abs/2002.03366)
