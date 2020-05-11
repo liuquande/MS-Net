@@ -3,7 +3,7 @@ by [Quande Liu](https://github.com/liuquande), [Qi Dou](http://www.cse.cuhk.edu.
 
 ### Introduction
 
-This Tensorflow implementation for our TMI 2020 paper '[Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data](https://arxiv.org/abs/2002.03366)'. 
+The Tensorflow implementation for our TMI 2020 paper '[Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data](https://arxiv.org/abs/2002.03366)'. 
 
 
 ### Usage
