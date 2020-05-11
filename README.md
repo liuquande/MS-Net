@@ -1,6 +1,8 @@
 # MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data
 by [Quande Liu](https://github.com/liuquande), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/), [Lequan Yu](https://yulequan.github.io/), [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng/). 
 
+![](assets/overview.png)
+
 ### Introduction
 
 The Tensorflow implementation for our TMI 2020 paper '[Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data](https://arxiv.org/abs/2002.03366)'. 
