@@ -1,11 +1,9 @@
+# MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data
+by [Quande Liu](https://github.com/liuquande), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/), [Lequan Yu](https://yulequan.github.io/), [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng/). 
 
-<p align="left">
-    <img src="assets/overview.png" width="95%" height="95%">
-</p>
+### Introduction
 
-[**_MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data_**](https://arxiv.org/abs/2002.03366)
-
-> We propose a novel multi-site network (MS-Net) for improving prostate segmentation by learning robust representations, leveraging multiple sources of data. To compensate for the inter-site heterogeneity of different MRI datasets, we develop Domain-Specific Batch Normalization layers in the network backbone, enabling the network to estimate statistics and perform feature normalization for each site separately. Considering the difficulty of capturing the shared knowledge from multiple datasets, a novel learning paradigm, i.e., Multi-site-guided Knowledge Transfer, is proposed to enhance the kernels to extract more generic representations from multi-site data. Extensive experiments on three heterogeneous prostate MRI datasets demonstrate that our MS-Net improves the performance across all datasets consistently. 
+This repository is for our TMI 2020 paper '[Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data](https://arxiv.org/abs/2002.03366)'. 
 
 
 ### Usage
