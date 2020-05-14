@@ -25,7 +25,7 @@ The Tensorflow implementation for our TMI 2020 paper '[Multi-Site Network for Im
    You will see the output results in the folder `./output/`.
 
 ### Citation
-If MS-Net is useful for your research, please consider citing:
+If this repository is useful for your research, please cite:
 
 ```
 @inproceedings{liu2020msnet,
