@@ -7,6 +7,18 @@ The Tensorflow implementation for our TMI 2020 paper '[Multi-Site Network for Im
 
 ![](assets/overview.png)
 
+### Prerequisites
+
+The following packages are required:
+```
+python==2.7.15rc1
+numpy==1.16.4
+tensorflow-gpu==1.8.0
+tensorboard==1.14.0
+matplotlib==2.2.3
+skimage==0.14.2
+SimpleITK==1.2.0
+```
 ### Usage
 
 1. Train the model:
