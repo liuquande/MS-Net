@@ -38,11 +38,12 @@ SimpleITK==1.2.0
 If this repository is useful for your research, please cite:
 
 ```
-@inproceedings{liu2020msnet,
-    author = {Quande Liu and Qi Dou and Lequan Yu and Pheng Ann Heng},
-    title = {MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data},
-    booktitle = {IEEE Transactions on Medical Imaging},
-    year = {2020},
+@article{liu2020ms,
+  title={Ms-net: Multi-site network for improving prostate segmentation with heterogeneous mri data},
+  author={Liu, Quande and Dou, Qi and Yu, Lequan and Heng, Pheng Ann},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2020},
+  publisher={IEEE}
 }
 ```
 ### Questions
